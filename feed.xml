@@ -3,12 +3,35 @@
     <title>developer-interview-questions</title>
     <link href="http://tarateam.com/feed.xml" rel="self" />
     <link href="http://tarateam.com" />
-    <updated>2017-10-01T22:40:43+07:00</updated>
+    <updated>2017-10-01T22:47:19+07:00</updated>
     <author>
         <name>Than Htike Aung</name>
     </author>
     <id>http://tarateam.com</id>
 
+    <entry>
+        <title>Leap Year</title>
+        <author>
+            <name>Than Htike Aung</name>
+        </author>
+        <link href="http://tarateam.com/leap-year.html"/>
+        <id>http://tarateam.com/leap-year.html</id>
+            <category term="easy"/>
+
+        <updated>2017-10-01T22:45:45+07:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <p>Write a program that determine whether or not an integer input is a leap year.</p>
+<p><strong>Definition of leap year:</strong></p>
+<ul>
+<li><strong>Rule 1</strong>: A year is called leap year if it is divisible by 400. <code>Example:&nbsp;1600, 2000 etc. are leap year while 1500, 1700 are not leap year.</code></li>
+<li><strong>Rule 2</strong>: If year is not divisible by 400 as well as 100 but it is divisible by 4 then that year are also leap year. <code>Example:&nbsp;2004, 2008, 1012 are leap year.</code></li>
+</ul>
+<p><strong>Example Output:</strong><br><br><code>1600 -&gt; true</code><br><code>2000 -&gt; true</code><br><code>1500 -&gt; false</code><br><code>2004 -&gt; true</code><br><code>2008 -&gt; true</code><br><code>2010 -&gt; false</code></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Fizz Buzz</title>
         <author>

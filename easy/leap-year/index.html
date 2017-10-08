@@ -7,7 +7,7 @@
     <meta name="description" content="">
 
 
-    <title>header :: Tara Team</title>
+    <title>Leap Year :: Tara Team</title>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
     <link href="/css/nucleus.css" rel="stylesheet">
     <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -39,7 +39,7 @@
 </script>
 
   </head>
-  <body class="" data-url="/_header/">
+  <body class="" data-url="/easy/leap-year/">
     <nav id="sidebar" class="showVisitedLinks"><div class="highlightable">
   <div id="header-wrapper">
     <div id="header"> 
@@ -66,7 +66,7 @@
             <li data-nav-id="/" class="dd-item">
             <a href="/"><i class="fa fa-fw fa-home"></i></a>
             </li>
-    <li data-nav-id="/easy/" class="dd-item parent">
+    <li data-nav-id="/easy/" class="dd-item parent parent">
       <a href="/easy/">
         <span>Easy</span>
             <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
@@ -92,7 +92,7 @@
           <span>Palindrome</span><i class="fa fa-circle-thin read-icon"></i>
         </a>
     </li>
-      <li data-nav-id="/easy/leap-year/" class="dd-item">
+      <li data-nav-id="/easy/leap-year/" class="dd-item active">
         <a href="/easy/leap-year/">
           <span>Leap Year</span><i class="fa fa-circle-thin read-icon"></i>
         </a>
@@ -189,7 +189,12 @@
 
 
 
- <a href='/'>Interview Questions for developers</a> > header
+
+
+
+ <a href='/'>Interview Questions for developers</a> > <a href='/easy/'>Easy</a> > Leap Year
+
+ 
 
  
 
@@ -198,7 +203,18 @@
             </div>
             <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#question">Question</a></li>
+<li><a href="#example-output">Example Output</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -207,13 +223,46 @@
         
         <div id="body-inner">
           
-            <h1>header</h1>
+            <h1>Leap Year</h1>
           
 
 
 
 
-<p>Developer Interview Questions</p>
+
+
+<h3 id="question">Question</h3>
+
+<pre><code>Write a program that determines whether or not an integer input is a leap year.
+</code></pre>
+
+<div class="alert 
+	alert-info"
+ 
+role="alert"><strong>Definition of leap year</strong></div>
+
+
+<ul>
+<li><strong>Rule 1:</strong> A year is called leap year if it is divisible by 400.</li>
+</ul>
+
+<p><strong>Example:</strong> 1600, 2000 etc. are leap year while 1500, 1700 are not leap year.</p>
+
+<ul>
+<li><strong>Rule 2:</strong> If year is not divisible by 400 as well as 100 but it is divisible by 4 then that year are also leap year.</li>
+</ul>
+
+<p><strong>Example:</strong> 2004, 2008, 1012 are leap year.</p>
+
+<h3 id="example-output">Example Output</h3>
+
+<pre><code>1600 -&gt; true
+2000 -&gt; true
+1500 -&gt; false
+2004 -&gt; true
+2008 -&gt; true
+2010 -&gt; false
+</code></pre>
 
 
 <footer class=" footline" >
@@ -233,7 +282,8 @@
     
 
     <div id="navigation">
-        <a class="nav nav-next" href="/easy/" title="Easy" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        <a class="nav nav-prev" href="/easy/palindrome/" title="Palindrome"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="/medium/" title="Medium" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
     </div>
 
     </section>

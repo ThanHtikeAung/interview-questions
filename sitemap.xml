@@ -3,19 +3,59 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/getting-start/</loc>
+    <loc>/easy/anagrams/</loc>
   </url>
   
   <url>
-    <loc>/getting-start/installation/</loc>
+    <loc>/easy/ascii-stars/</loc>
   </url>
   
   <url>
-    <loc>/getting-start/configuration/</loc>
+    <loc>/medium/circle-intersection/</loc>
   </url>
   
   <url>
-    <loc>/search/</loc>
+    <loc>/easy/</loc>
+  </url>
+  
+  <url>
+    <loc>/easy/fizz-buzz/</loc>
+  </url>
+  
+  <url>
+    <loc>/hard/merge-sort/</loc>
+  </url>
+  
+  <url>
+    <loc>/easy/palindrome/</loc>
+  </url>
+  
+  <url>
+    <loc>/medium/prime-numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>/medium/queue-by-stacks/</loc>
+  </url>
+  
+  <url>
+    <loc>/hard/quick-sort/</loc>
+  </url>
+  
+  <url>
+    <loc>/easy/leap-year/</loc>
+  </url>
+  
+  <url>
+    <loc>/medium/</loc>
+  </url>
+  
+  <url>
+    <loc>/hard/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
   </url>
   
   <url>
